@@ -6,6 +6,7 @@ import ru.glassexpress.modules.DBUtil;
 import ru.glassexpress.modules.DatabaseConnection;
 import ru.glassexpress.objects_DB.CarMarks;
 
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -16,12 +17,12 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-@javax.servlet.annotation.WebServlet(name = "Servlet")
-public class Servlet extends javax.servlet.http.HttpServlet {
+//@WebServlet(name = "Servlet")
+public class Servlet extends HttpServlet {
     DatabaseConnection ddbConn;
 
 
-    protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         String action = request.getServletPath();
         String answerJson = null;
@@ -56,11 +57,11 @@ public class Servlet extends javax.servlet.http.HttpServlet {
             out.println(answerJson);
 
             out.close();
-        }
+         }
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-
+        doPost(request, response);
     }
 
     private String getCars(HttpServletRequest request, HttpServletResponse response) {
