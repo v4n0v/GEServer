@@ -1,71 +1,29 @@
 package ru.glassexpress.modules;
 
-import com.mysql.fabric.jdbc.FabricMySQLDriver;
-
-import java.sql.Connection;
-import java.sql.Driver;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
 
 public class DatabaseConnection {
-
-    private Connection conn;
-    private Driver driver;
-    String db_name = "glass_express_db";
-    String username = "root";
-    String pass = "12345";
-
-
-    public void connect() {
-
-        //String URL = "jdbc: mysql://mysql:3306/";
-        String URL = "jdbc:mysql://localhost:3306/";
-
-
-        try {
-            driver = new FabricMySQLDriver();
-            Log2File.writeLog(Events.DRIVER_CREATE_OK);
-        } catch (SQLException e) {
-
-            Log2File.writeLog(Events.DRIVER_CREATE_ERROR);
-            return;
-        }
-
-        try {
-            DriverManager.registerDriver(driver);
-            Log2File.writeLog(Events.DRIVER_REGISTRATION_OK);
-        } catch (SQLException e) {
-
-
-            Log2File.writeLog(Events.DRIVER_REGISTRATION_ERROR);
-            return;
-        }
-
-        try {
-            conn = DriverManager.getConnection(URL + db_name, username, pass);
-
-            Log2File.writeLog(Events.DB_CONNECTION_OK+"База: "+db_name+"\nusername = "+username+"\n");
-
-        } catch (SQLException e) {
-
-            Log2File.writeLog( Events.DB_CONNECTION_ERROR+"База: "+db_name+"\nusername = "+username+"\n");
-            return;
-        }
-
-
-    }
-
-    public void disconnect() {
-        if (conn != null) {
-            try {
-                conn.close();
-
-                Log2File.writeLog( Events.DB_DISCONNECTION_OK+"База: "+db_name+"\n");
-            } catch (SQLException e) {
-
-                Log2File.writeLog( Events.DB_DISCONNECTION_ERROR+"База: "+db_name+"\n");
-                e.printStackTrace();
-            }
-        }
-    }
+	private static DataSource dataSource;
+	private static final String  JNDI_LOOKUP_SERVICE = "java:/comp/env/jdbc/glass_express_db";
+	private DatabaseConnection(){}
+	static{
+		try {
+			Context context = new InitialContext();
+			Object lookup = context.lookup(JNDI_LOOKUP_SERVICE);
+			if(lookup != null){
+				dataSource =(DataSource)lookup;
+				System.out.println("oke");
+			}else{
+				new RuntimeException("JNDI look up issue.");
+			}
+		} catch (NamingException e) {
+			e.printStackTrace();
+		}
+	}
+	public static DataSource getDataSource(){
+		return dataSource;
+	}
 }
