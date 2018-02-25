@@ -20,7 +20,7 @@ public class DBCommandFactory implements DBFactoryMethod{
         } else if (action.equals("list")&&target.equals("model")){
             return new DBSelectModelCommand(req);
         } else if (action.equals("list")&&target.equals("generation")){
-            return new DBSelectModelCommand(req);
+            return new DBSelectGenerationCommand(req);
 
         } else if (action.equals("insert")&&target.equals("mark")){
             return  new DBInsertMarkCommand(req);
