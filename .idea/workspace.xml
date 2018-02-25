@@ -6,7 +6,37 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6523dee-e0bd-4510-b0ba-fa36c36e19bf" name="Default" comment="" />
+    <list default="true" id="a6523dee-e0bd-4510-b0ba-fa36c36e19bf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/DBConnect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/RequestParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/SQLPrefs.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommandOperator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertGenerationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertMarkCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertModelCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectGenerationCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectMarkCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectModelCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/factory/DBCommandFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/modules/factory/DBFactoryMethod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/ErrorObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/GenerationObj.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/OkObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/TitledObject.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/GlassTableMapping.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/Servlet.java" afterPath="$PROJECT_DIR$/src/ru/glassexpress/Servlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java" afterPath="$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/modules/DBDataMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/modules/DatabaseConnection.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/CarMark.java" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/IdTitleObj.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/Composite.java" afterPath="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/Composite.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,16 +49,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.3764276">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DBSelectCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java">
+          <file leaf-file-name="BaseObject.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#276#277#0" expanded="true" />
-                    <element signature="e#311#312#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="255">
+                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -36,40 +62,28 @@
           <file leaf-file-name="DBCommand.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommand.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DBInsertModelCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertModelCommand.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="56" />
+                <state relative-caret-position="510">
+                  <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DBInsertMarkCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertMarkCommand.java">
+          <file leaf-file-name="DBInsertCommand.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="60">
+                  <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DBCommandOperator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommandOperator.java">
+          <file leaf-file-name="DBSelectCommand.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="180">
+                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -80,72 +94,12 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="435">
                   <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1052#1053#0" expanded="true" />
-                    <element signature="e#1096#1097#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DBSelectGenerationCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectGenerationCommand.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#284#285#0" expanded="true" />
-                    <element signature="e#339#340#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BaseObject.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#366#367#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ErrorObject.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/ErrorObject.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-                  <folding>
-                    <element signature="e#144#145#0" expanded="true" />
-                    <element signature="e#174#175#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="OkObject.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/OkObject.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#138#139#0" expanded="true" />
-                    <element signature="e#165#166#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="SQLPrefs.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SQLPrefs.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/SQLPrefs.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
@@ -155,47 +109,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DBInsertCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java">
+          <file leaf-file-name="DBConnect.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DBConnect.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#350#351#0" expanded="true" />
-                    <element signature="e#385#386#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IdTitleObj.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/IdTitleObj.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                <state relative-caret-position="60">
+                  <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ServerResponseController.java" pinned="false" current-in-tab="false">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ServerResponseController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="285">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GlassTableMapping.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/GlassTableMapping.java">
+          <file leaf-file-name="ErrorObject.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/ErrorObject.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -204,57 +146,9 @@
           <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/Servlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
+                <state relative-caret-position="450">
                   <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DBInsertGenerationCommand.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertGenerationCommand.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#235#236#0" expanded="true" />
-                    <element signature="e#293#294#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DBCommandFactory.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/factory/DBCommandFactory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DBFactoryMethod.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/factory/DBFactoryMethod.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RequestParser.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/RequestParser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#820#821#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -331,11 +225,11 @@
         <option value="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java" />
         <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/factory/DBFactoryMethod.java" />
         <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/factory/DBCommandFactory.java" />
-        <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java" />
         <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommand.java" />
-        <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java" />
         <option value="$PROJECT_DIR$/src/ru/glassexpress/objects_DB/ErrorObject.java" />
         <option value="$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java" />
+        <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java" />
+        <option value="$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java" />
       </list>
     </option>
   </component>
@@ -404,6 +298,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="glassexpress" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GEServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GEServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="glassexpress" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="db_command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GEServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GEServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="glassexpress" type="462c0819:PsiDirectoryNode" />
+              <item name="objects_DB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GEServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GEServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="glassexpress" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GEServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GEServer" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -644,7 +565,7 @@
       <workItem from="1519215822377" duration="605000" />
       <workItem from="1519302650387" duration="3574000" />
       <workItem from="1519331415867" duration="4708000" />
-      <workItem from="1519559336077" duration="900000" />
+      <workItem from="1519559336077" duration="4110000" />
     </task>
     <task id="LOCAL-00001" summary="индусское соединение">
       <created>1519065336486</created>
@@ -706,7 +627,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34060000" />
+    <option name="totallyTimeSpent" value="37270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,7 +650,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994527" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24628615" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -756,6 +677,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -771,12 +718,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/glassexpress/modules/DBConnect.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertGenerationCommand.java</url>
           <line>13</line>
@@ -797,7 +738,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java</url>
-          <line>22</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
@@ -839,9 +780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="91" column="51" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,9 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="91" column="51" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DatabaseConnection.java" />
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/Map.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -936,16 +872,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/RequestExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerSecurityController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -958,11 +884,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#303#304#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -984,11 +906,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,18 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/GenerationObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/Composite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1040,22 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/SQLPrefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommandOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1064,26 +954,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DBDataMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectGenerationCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="25" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,11 +974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +983,7 @@
         <state relative-caret-position="465">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1137,31 +1008,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,42 +1017,17 @@
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#165#166#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/ErrorObject.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/BaseObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,6 +1035,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/ErrorObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/controllers/ServerResponseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DBDataMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="152" column="12" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBInsertCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/db_command/DBSelectCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/objects_DB/GenerationObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/glassexpress/modules/SQLPrefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
         </state>
       </provider>
