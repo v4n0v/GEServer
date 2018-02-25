@@ -1,12 +1,12 @@
 package ru.glassexpress.modules.db_command;
 
-import ru.glassexpress.modules.SQLPrefs;
+import ru.glassexpress.modules.Res;
 
 import java.sql.SQLException;
 
 public class DBInsertGenerationCommand extends DBInsertCommand{
     public DBInsertGenerationCommand(String request) {
-        super(SQLPrefs.INSERT_GENERATION, request);
+        super(Res.INSERT_GENERATION, request);
     }
 
     @Override

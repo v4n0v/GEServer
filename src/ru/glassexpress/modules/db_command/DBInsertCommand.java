@@ -18,10 +18,12 @@ abstract class DBInsertCommand extends DBCommand{
         try {
             con = DBConnect.getConnection();
             if (con!=null) {
+                con.setAutoCommit(false);
                 ps = con.prepareStatement(sql);
                 queryExecute();
 
                 ps.executeUpdate();
+                con.commit();
                 disconnect();
             }
         } catch (SQLException e) {

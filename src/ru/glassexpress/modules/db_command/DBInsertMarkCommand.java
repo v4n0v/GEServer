@@ -1,12 +1,12 @@
 package ru.glassexpress.modules.db_command;
 
-import ru.glassexpress.modules.SQLPrefs;
+import ru.glassexpress.modules.Res;
 
 import java.sql.SQLException;
 
 public class DBInsertMarkCommand extends DBInsertCommand{
     public DBInsertMarkCommand(String request) {
-        super(SQLPrefs.INSERT_MARK, request);
+        super(Res.INSERT_MARK, request);
     }
 
     @Override

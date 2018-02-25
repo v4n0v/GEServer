@@ -1,13 +1,13 @@
 package ru.glassexpress.modules.db_command;
 
-import ru.glassexpress.modules.SQLPrefs;
+import ru.glassexpress.modules.Res;
 import ru.glassexpress.objects_DB.IdTitleObj;
 
 import java.sql.SQLException;
 
 public class DBSelectMarkCommand extends DBSelectCommand {
     public DBSelectMarkCommand() {
-        super(SQLPrefs.GET_MARKS, null);
+        super(Res.GET_MARKS, null);
     }
 
     @Override

@@ -1,6 +1,6 @@
 package ru.glassexpress.modules.db_command;
 
-import ru.glassexpress.modules.SQLPrefs;
+import ru.glassexpress.modules.Res;
 
 import java.sql.SQLException;
 
@@ -8,7 +8,7 @@ public class DBInsertModelCommand extends DBInsertCommand {
 
 
     public DBInsertModelCommand(String request) {
-        super(SQLPrefs.INSERT_MODEL, request);
+        super(Res.INSERT_MODEL, request);
        // this.request=request;
     }
 

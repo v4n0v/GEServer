@@ -11,6 +11,11 @@ public class GenerationObj extends BaseObject{
 
     int yearFrom;
     int yearTo;
+
+    public int getModelID() {
+        return modelID;
+    }
+
     int modelID;
 
     public GenerationObj(int yearFrom, int yearTo, int modelID) {
