@@ -3,9 +3,9 @@ package ru.glassexpress.modules.factory;
 import ru.glassexpress.modules.RequestParser;
 import ru.glassexpress.modules.db_command.*;
 
-public class DBCommandFactory implements DBFactoryMethod{
+public class DBCommandFactory implements DBFactoryMethod {
 
-    static  DBCommand command;
+    static DBCommand command;
 
 
     public DBCommand createCommand(String req) {
@@ -15,23 +15,30 @@ public class DBCommandFactory implements DBFactoryMethod{
         String action = parser.getStringValue("action");
 
 
-        if (action.equals("list")&&target.equals("mark")){
+        if (action.equals("list") && target.equals("mark")) {
             return new DBSelectMarkCommand();
-        } else if (action.equals("list")&&target.equals("model")){
+        } else if (action.equals("list") && target.equals("model")) {
             return new DBSelectModelCommand(req);
-        } else if (action.equals("list")&&target.equals("generation")){
+        } else if (action.equals("list") && target.equals("generation")) {
             return new DBSelectGenerationCommand(req);
-        } else if (action.equals("list")&&target.equals("table_goods")){
+        } else if (action.equals("list") && target.equals("table_goods")) {
             return new DBSelectGlassCommand(req);
+        } else if (action.equals("list") && target.equals("glass_type")) {
+            return new DBSelectGlassTypeCommand(req);
+        } else if (action.equals("list") && target.equals("body_type")) {
+            return new DBSelectBodyTypeCommand(req);
+        } else if (action.equals("list") && target.equals("glass_option")) {
+            return new DBSelectGlassOption(req);
+            } else if (action.equals("list") && target.equals("glass_factory")) {
+            return new DBSelectGlassFactoryCommand(req);
 
-        } else if (action.equals("insert")&&target.equals("mark")){
-            return  new DBInsertMarkCommand(req);
-        } else if (action.equals("insert")&&target.equals("model")){
+        } else if (action.equals("insert") && target.equals("mark")) {
+            return new DBInsertMarkCommand(req);
+        } else if (action.equals("insert") && target.equals("model")) {
             return new DBInsertModelCommand(req);
-        } else if (action.equals("insert")&&target.equals("generation")){
+        } else if (action.equals("insert") && target.equals("generation")) {
             return new DBInsertGenerationCommand(req);
         }
-
 
 
         return null;

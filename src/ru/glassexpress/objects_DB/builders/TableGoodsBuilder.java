@@ -6,8 +6,15 @@ import ru.glassexpress.objects_DB.TableGoodsInStockRow;
 public class TableGoodsBuilder {
 
 
+    private int carId;
+
     public TableGoodsBuilder setId(int id) {
         this.id = id;
+        return this;
+    }
+
+    public TableGoodsBuilder setCarId(int carId) {
+        this.carId = carId;
         return this;
     }
 
@@ -70,6 +77,7 @@ public class TableGoodsBuilder {
     public TableGoodsInStockRow build() {
         TableGoodsInStockRow table = new TableGoodsInStockRow();
         table.setId(id);
+        table.setCarId(carId);
         table.setGlassType(glassType);
         table.setGlassOption(glassOption);
         table.setDescription(description);

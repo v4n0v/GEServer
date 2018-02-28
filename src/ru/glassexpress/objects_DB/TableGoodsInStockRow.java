@@ -90,6 +90,16 @@ public class TableGoodsInStockRow extends BaseObject {
     }
 
     private int id;
+    private int carId;
+
+    public int getCarId() {
+        return carId;
+    }
+
+    public void setCarId(int carId) {
+        this.carId = carId;
+    }
+
     private int glassType;
     private int glassOption;
     private String description;

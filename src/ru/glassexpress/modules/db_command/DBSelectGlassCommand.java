@@ -21,6 +21,7 @@ public class DBSelectGlassCommand extends DBSelectCommand {
     void queryExecute() throws SQLException {
         TableGoodsInStockRow table = new TableGoodsBuilder().
                 setId(rs.getInt("id_glass")).
+                setCarId(rs.getInt("id_car")).
                 setGlassType(rs.getInt("id_glass_type")).
                 setGlassOption(rs.getInt("id_glass_options")).
                 setDescription(rs.getString("description")).
