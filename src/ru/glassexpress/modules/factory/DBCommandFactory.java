@@ -2,6 +2,17 @@ package ru.glassexpress.modules.factory;
 
 import ru.glassexpress.modules.RequestParser;
 import ru.glassexpress.modules.db_command.*;
+import ru.glassexpress.modules.db_command.insert.DBInsertGenerationCommand;
+import ru.glassexpress.modules.db_command.insert.DBInsertMarkCommand;
+import ru.glassexpress.modules.db_command.insert.DBInsertModelCommand;
+import ru.glassexpress.modules.db_command.select.car.DBSelectBodyTypeCommand;
+import ru.glassexpress.modules.db_command.select.car.DBSelectGenerationCommand;
+import ru.glassexpress.modules.db_command.select.car.DBSelectMarkCommand;
+import ru.glassexpress.modules.db_command.select.car.DBSelectModelCommand;
+import ru.glassexpress.modules.db_command.select.glass.DBSelectGlassCommand;
+import ru.glassexpress.modules.db_command.select.glass.DBSelectGlassFactoryCommand;
+import ru.glassexpress.modules.db_command.select.glass.DBSelectGlassOption;
+import ru.glassexpress.modules.db_command.select.glass.DBSelectGlassTypeCommand;
 
 public class DBCommandFactory implements DBFactoryMethod {
 

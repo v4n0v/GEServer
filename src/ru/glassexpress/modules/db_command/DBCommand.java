@@ -11,14 +11,14 @@ public abstract class DBCommand {
     protected ResultSet rs;
     protected Connection con;
 
-    String sql;
-    String request;
+    protected  String sql;
+    protected String request;
 
     protected Composite composite;
 
 
-    RequestParser parser;
-    public DBCommand(String sql, String request) {
+    protected RequestParser parser;
+    protected DBCommand(String sql, String request) {
         this.sql = sql;
         if (request!=null) {
             parser = new RequestParser();
@@ -36,5 +36,5 @@ public abstract class DBCommand {
             e.printStackTrace();
         }
     }
-    abstract void queryExecute( ) throws SQLException;
+    protected abstract void queryExecute() throws SQLException;
 }

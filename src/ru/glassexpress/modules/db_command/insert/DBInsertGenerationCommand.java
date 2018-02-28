@@ -1,16 +1,17 @@
-package ru.glassexpress.modules.db_command;
+package ru.glassexpress.modules.db_command.insert;
 
 import ru.glassexpress.modules.Res;
+import ru.glassexpress.modules.db_command.DBInsertCommand;
 
 import java.sql.SQLException;
 
-public class DBInsertGenerationCommand extends DBInsertCommand{
+public class DBInsertGenerationCommand extends DBInsertCommand {
     public DBInsertGenerationCommand(String request) {
         super(Res.INSERT_GENERATION, request);
     }
 
     @Override
-    void queryExecute() throws SQLException {
+    protected void queryExecute() throws SQLException {
         System.out.println("insert generation");
         int yearFrom = parser.getIntValue("yearFrom");
         ps.setInt(1, parser.getIntValue("yearFrom"));

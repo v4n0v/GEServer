@@ -1,6 +1,7 @@
-package ru.glassexpress.modules.db_command;
+package ru.glassexpress.modules.db_command.select.glass;
 
 import ru.glassexpress.modules.Res;
+import ru.glassexpress.modules.db_command.DBSelectCommand;
 import ru.glassexpress.objects_DB.TableGoodsInStockRow;
 import ru.glassexpress.objects_DB.builders.TableGoodsBuilder;
 
@@ -18,7 +19,7 @@ public class DBSelectGlassCommand extends DBSelectCommand {
     }
 
     @Override
-    void queryExecute() throws SQLException {
+    protected void queryExecute() throws SQLException {
         TableGoodsInStockRow table = new TableGoodsBuilder().
                 setId(rs.getInt("id_glass")).
                 setCarId(rs.getInt("id_car")).

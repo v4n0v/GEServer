@@ -7,7 +7,7 @@ import ru.glassexpress.objects_DB.OkObject;
 
 import java.sql.*;
 
-abstract class DBInsertCommand extends DBCommand{
+public abstract class DBInsertCommand extends DBCommand{
 
     public DBInsertCommand(String sql, String request) {
         super(sql, request);

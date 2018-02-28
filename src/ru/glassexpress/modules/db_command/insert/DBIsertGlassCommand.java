@@ -1,6 +1,7 @@
-package ru.glassexpress.modules.db_command;
+package ru.glassexpress.modules.db_command.insert;
 
 import ru.glassexpress.modules.Res;
+import ru.glassexpress.modules.db_command.DBInsertCommand;
 
 import java.sql.SQLException;
 
@@ -10,7 +11,7 @@ public class DBIsertGlassCommand extends DBInsertCommand {
     }
 
     @Override
-    void queryExecute() throws SQLException {
+    protected void queryExecute() throws SQLException {
         ps.setInt(1, parser.getIntValue("id_auto"));
         ps.setInt(2, parser.getIntValue("id_glass_type"));
         ps.setInt(3, parser.getIntValue("id_glass_opt"));
