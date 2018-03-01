@@ -2,6 +2,7 @@ package ru.glassexpress.modules.factory;
 
 import ru.glassexpress.modules.RequestParser;
 import ru.glassexpress.modules.db_command.*;
+import ru.glassexpress.modules.db_command.delete.DBDeleteGenerationCommand;
 import ru.glassexpress.modules.db_command.insert.DBInsertGenerationCommand;
 import ru.glassexpress.modules.db_command.insert.DBInsertMarkCommand;
 import ru.glassexpress.modules.db_command.insert.DBInsertModelCommand;
@@ -40,7 +41,7 @@ public class DBCommandFactory implements DBFactoryMethod {
             return new DBSelectBodyTypeCommand(req);
         } else if (action.equals("list") && target.equals("glass_option")) {
             return new DBSelectGlassOption(req);
-            } else if (action.equals("list") && target.equals("glass_factory")) {
+        } else if (action.equals("list") && target.equals("glass_factory")) {
             return new DBSelectGlassFactoryCommand(req);
 
         } else if (action.equals("insert") && target.equals("mark")) {
@@ -49,6 +50,11 @@ public class DBCommandFactory implements DBFactoryMethod {
             return new DBInsertModelCommand(req);
         } else if (action.equals("insert") && target.equals("generation")) {
             return new DBInsertGenerationCommand(req);
+
+
+
+        } else if (action.equals("delete") && target.equals("generation")) {
+            return new DBDeleteGenerationCommand(req);
         }
 
 

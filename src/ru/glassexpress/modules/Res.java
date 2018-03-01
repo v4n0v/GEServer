@@ -6,7 +6,7 @@ public class Res {
             "(SELECT id_auto_mark  FROM auto_mark WHERE mark_title=?) ORDER BY title_model";
 
     public static final String GET_GENERATION = "SELECT * FROM car WHERE id_model = " +
-            "(SELECT id_auto_model FROM auto_model WHERE title_model=?);";
+            "(SELECT id_auto_model FROM auto_model WHERE title_model=?) ORDER BY year_from";
 
 
     public static final String INSERT_MODEL = "INSERT INTO `glass_express_db`.`auto_model` (`title_model`, `id_auto_mark`) " +
@@ -36,6 +36,7 @@ public class Res {
     public static final String SELECT_BODY_TYPE = "SELECT * FROM auto_body_type ORDER BY id_body_type";
     public static final String SELECT_GLASS_OPT ="SELECT * FROM glass_options ORDER BY id_glass_options";
     public static final String SELECT_GLASS_FACTORY ="SELECT * FROM glass_factory";
+    public static final String DELETE_GENERATION = "DELETE FROM car WHERE id_car = ?";
 
     /// названия колонок таблицы
 
