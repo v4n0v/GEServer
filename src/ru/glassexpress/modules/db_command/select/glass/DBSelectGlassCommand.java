@@ -2,8 +2,10 @@ package ru.glassexpress.modules.db_command.select.glass;
 
 import ru.glassexpress.modules.Res;
 import ru.glassexpress.modules.db_command.DBSelectCommand;
-import ru.glassexpress.objects_DB.TableGoodsInStockRow;
-import ru.glassexpress.objects_DB.builders.TableGoodsBuilder;
+import ru.glassexpress.objects_DB.GlassObject;
+import ru.glassexpress.objects_DB.TableGlassRow;
+import ru.glassexpress.objects_DB.builders.GlassBuilder;
+import ru.glassexpress.objects_DB.builders.TableGlassBuilder;
 
 import java.sql.SQLException;
 
@@ -20,16 +22,26 @@ public class DBSelectGlassCommand extends DBSelectCommand {
 
     @Override
     protected void queryExecute() throws SQLException {
-        TableGoodsInStockRow table = new TableGoodsBuilder().
-                setId(rs.getInt("id_glass")).
-                setCarId(rs.getInt("id_car")).
-                setGlassType(rs.getInt("id_glass_type")).
-                setGlassOption(rs.getInt("id_glass_options")).
-                setDescription(rs.getString("description")).
-                setPriceIn(rs.getFloat("price_in")).
-                setPrice(rs.getFloat("price_out")).
-                setCountRemainder(rs.getInt("alert_remainder"))
+
+        GlassObject table = new GlassBuilder()
+                .setId(rs.getInt("id_glass"))
+                .setCarId(rs.getInt("id_car"))
+                .setGlassTypeId(rs.getInt("id_glass_type"))
+                .setGlassOptionId(rs.getInt("id_glass_option"))
+                .setDescription(rs.getString("glass_description"))
+                .setCountRemainder(rs.getInt("alert_remainder"))
+                .setPriceIn(rs.getFloat("price_in"))
+                .setPrice(rs.getFloat("price_out"))
+                .setGlassFactoryId(rs.getInt("id_glass_factory"))
+                .setInsertPrice(rs.getFloat("insert_price"))
+                .setInsertMethodId(rs.getInt("id_insert_method"))
+                .setInsertCarTitle(rs.getString("auto"))
+                .setInsertGlassFactoryTitle(rs.getString("title_glass_factory"))
+                .setInsertGlassOptTitle(rs.getString("glass_option_title"))
+                .setInsertGlassTypeTitle(rs.getString("glass_type_title"))
+                .setInsertMethodTitle(rs.getString("title_insert_method"))
                 .build();
+
 
         composite.addComponent(table);
     }

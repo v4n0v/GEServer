@@ -18,6 +18,6 @@ public class DBSelectGlassOption extends DBSelectCommand {
 
     @Override
     protected void queryExecute() throws SQLException {
-        composite.addComponent(new IdTitleObj(rs.getInt("id_glass_options"), rs.getString("glass_option_title")));
+        composite.addComponent(new IdTitleObj(rs.getInt("id_glass_option"), rs.getString("glass_option_title")));
     }
 }

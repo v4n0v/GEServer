@@ -18,14 +18,18 @@ public abstract class DBSelectCommand extends DBCommand{
 
         try{ con= DBConnect.getConnection();
             if (con!=null) {
+                System.out.println("соединение с базой установлено из "+this.getClass().getSimpleName());
                 ps = con.prepareStatement(sql);
                 prepareStatement();
+                System.out.println("выборка подготовлена");
                 rs = ps.executeQuery();
-
+                System.out.println("данные из бызы получены");
                 while (rs.next()) {
                     queryExecute();
+                    System.out.println("элемент считан");
                 }
                 disconnect();
+                System.out.println("соединение с базой разорвано "+this.getClass().getSimpleName());
             }
         } catch (Exception e) {
             e.printStackTrace();

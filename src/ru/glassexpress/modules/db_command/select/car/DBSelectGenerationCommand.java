@@ -13,8 +13,8 @@ public class DBSelectGenerationCommand extends DBSelectCommand {
 
     @Override
     protected void prepareStatement() throws SQLException {
-        String a = parser.getStringValue("model");
-        ps.setString(1,  parser.getStringValue("model"));
+        int a = parser.getIntValue("model");
+        ps.setInt(1,  parser.getIntValue("model"));
         System.out.println();
     }
 
@@ -23,6 +23,6 @@ public class DBSelectGenerationCommand extends DBSelectCommand {
         System.out.println();
 
         composite.addComponent(new GenerationObj(rs.getInt("id_car"), rs.getInt("year_from"), rs.getInt("year_to"), rs.getInt("id_car")));
-        System.out.println();
+
     }
 }

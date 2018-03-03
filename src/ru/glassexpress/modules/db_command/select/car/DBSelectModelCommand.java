@@ -21,7 +21,7 @@ public class DBSelectModelCommand extends DBSelectCommand {
     @Override
     protected void queryExecute() throws SQLException {
 
-        composite.addComponent(new IdTitleObj(rs.getInt("id_auto_mark"), rs.getString("title_model")));
+        composite.addComponent(new IdTitleObj(rs.getInt("id_auto_model"), rs.getString("title_model")));
     }
 
 }
